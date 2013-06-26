@@ -3,7 +3,7 @@
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 
-if ($_SERVER['SERVER_NAME'] != 'modu.hostname.com') {
+if ($_SERVER['SERVER_NAME'] != 'dev.hostname.com') {
     header('HTTP/1.0 403 Forbidden');
     exit('You are not allowed to access this file.');
 }
