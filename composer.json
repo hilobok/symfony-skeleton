@@ -1,8 +1,8 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "modu/skeleton",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "Modu symfony based skeleton",
     "autoload": {
         "psr-0": { "": "src/" }
     },
