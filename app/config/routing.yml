@@ -1,0 +1,4 @@
+modu_site:
+    resource: "@ModuSiteBundle/Resources/config/routing.yml"
+    prefix:   /
+
