@@ -1,3 +1,0 @@
-modu_site:
-    pattern:  /
-    defaults: { _controller: ModuSiteBundle:Default:index }

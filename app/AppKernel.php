@@ -17,7 +17,8 @@ class AppKernel extends Kernel
                 'Symfony\Bundle\AsseticBundle\AsseticBundle',
                 'Doctrine\Bundle\DoctrineBundle\DoctrineBundle',
                 'Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle',
-                'Modu\Bundle\SiteBundle\ModuSiteBundle'
+
+                'Anh\Bundle\SiteBundle\AnhSiteBundle',
             )))
         );
 

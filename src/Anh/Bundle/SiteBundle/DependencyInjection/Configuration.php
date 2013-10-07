@@ -1,6 +1,6 @@
 <?php
 
-namespace Modu\Bundle\SiteBundle\DependencyInjection;
+namespace Anh\Bundle\SiteBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('modu_site');
+        $rootNode = $treeBuilder->root('anh_site');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for

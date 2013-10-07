@@ -1,8 +1,8 @@
 {
-    "name": "modu/skeleton",
+    "name": "anh/symfony-skeleton",
     "license": "MIT",
     "type": "project",
-    "description": "Modu symfony based skeleton",
+    "description": "Symfony skeleton",
     "autoload": {
         "psr-0": { "": "src/" }
     },

@@ -1,0 +1,3 @@
+anh_site:
+    pattern:  /
+    defaults: { _controller: AnhSiteBundle:Default:index }

@@ -1,7 +1,0 @@
-parameters:
-#    modu_site.example.class: Modu\Bundle\SiteBundle\Example
-
-services:
-#    modu_site.example:
-#        class: %modu_site.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
