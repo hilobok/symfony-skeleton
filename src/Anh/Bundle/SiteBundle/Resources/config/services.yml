@@ -1,7 +1,9 @@
 parameters:
-#    anh_site.example.class: Anh\Bundle\SiteBundle\Example
+    anh_site.date_format: 'Y-m-d H:i:s'
 
 services:
-#    anh_site.example:
-#        class: %anh_site.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    anh_site.date_format_listener:
+        class: Anh\Bundle\SiteBundle\EventListener\DateFormatListener
+        arguments: [ @service_container ]
+        tags:
+            - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }
