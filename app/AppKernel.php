@@ -18,7 +18,7 @@ class AppKernel extends Kernel
                 'Doctrine\Bundle\DoctrineBundle\DoctrineBundle',
                 'Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle',
 
-                'Anh\Bundle\SiteBundle\AnhSiteBundle',
+                'Anh\SiteBundle\AnhSiteBundle',
             )))
         );
 

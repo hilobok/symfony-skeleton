@@ -1,6 +1,6 @@
 <?php
 
-namespace Anh\Bundle\SiteBundle;
+namespace Anh\SiteBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

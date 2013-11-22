@@ -1,6 +1,6 @@
 <?php
 
-namespace Anh\Bundle\SiteBundle\EventListener;
+namespace Anh\SiteBundle\EventListener;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
