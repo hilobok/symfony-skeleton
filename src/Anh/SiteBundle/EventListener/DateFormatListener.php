@@ -7,14 +7,16 @@ use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 
 class DateFormatListener
 {
-    protected $container;
+    protected $twig;
+    protected $dateFormat;
 
     /**
      * Constructor
      */
-    public function __construct(ContainerInterface $container)
+    public function __construct(\Twig_Environment $twig, $dateFormat)
     {
-        $this->container = $container;
+        $this->twig = $twig;
+        $this->dateFormat = $dateFormat;
     }
 
     /**
@@ -24,7 +26,6 @@ class DateFormatListener
      */
     public function onKernelRequest(GetResponseEvent $event)
     {
-        $dateTimeFormat = $this->container->getParameter('anh_site.date_format');
-        $this->container->get('twig')->getExtension('core')->setDateFormat($dateTimeFormat, '%d days');
+        $this->twig->getExtension('core')->setDateFormat($this->dateFormat);
     }
 }
