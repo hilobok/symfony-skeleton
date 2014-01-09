@@ -2,7 +2,6 @@
 
 namespace Anh\SiteBundle\EventListener;
 
-use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 
 class DateFormatListener

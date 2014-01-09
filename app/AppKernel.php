@@ -7,7 +7,7 @@ class AppKernel extends Kernel
 {
     public function registerBundles()
     {
-        $bundles = array_map(function($class) { return new $class; },
+        $bundles = array_map(function ($class) { return new $class; },
             array_unique($this->processRequiredBundles(array(
                 'Symfony\Bundle\FrameworkBundle\FrameworkBundle',
                 'Symfony\Bundle\SecurityBundle\SecurityBundle',
