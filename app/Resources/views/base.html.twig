@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Symfony skeleton{% endblock %}</title>
+        <title>{% block title 'Symfony skeleton' %}</title>
         {% block meta '' %}
         {% block stylesheets '' %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
@@ -11,6 +11,6 @@
         {% block body %}
             {% block content '' %}
         {% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block javascripts '' %}
     </body>
 </html>
