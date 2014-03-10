@@ -7,7 +7,7 @@ security:
 
     firewalls:
         secured_area:
-            pattern: ^/admin
+            # pattern: ^/admin
             anonymous: ~
             form_login:
                 login_path:  anh_admin_login
