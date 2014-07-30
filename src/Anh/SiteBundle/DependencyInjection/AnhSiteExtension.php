@@ -41,7 +41,7 @@ class AnhSiteExtension extends Extension implements PrependExtensionInterface
                 ),
                 'jquery_ui_js' => array(
                     'inputs' => array(
-                        'bundles/anhsite/components/jqueryui/ui/minified/jquery-ui.min.js',
+                        'bundles/anhsite/components/jqueryui/jquery-ui.min.js',
                     )
                 ),
                 'jquery_ui_css' => array(
