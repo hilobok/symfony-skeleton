@@ -51,7 +51,15 @@ class AnhSiteExtension extends Extension implements PrependExtensionInterface
                     'filters' => array(
                         'cssrewrite'
                     )
-                )
+                ),
+                'fontawesome_css' => array(
+                    'inputs' => array(
+                        'bundles/anhsite/components/font-awesome/css/font-awesome.min.css',
+                    ),
+                    'filters' => array(
+                        'cssrewrite',
+                    ),
+                ),
             ),
             'bundles' => array(
                 'AnhSiteBundle'
